@@ -1,0 +1,16 @@
+{
+  "Lukoil": {
+    "name": "Лукойл",
+    "address": "Москва",
+    "telephone": "1111111",
+    "inn": "1111111",
+    "ogrn": "1111111",
+    "actives": {
+      "code": "1",
+      "date": "2020",
+      "name": "lkoh",
+      "valute": "rub"
+    },
+    "date": "01/01/1990"
+  }
+}

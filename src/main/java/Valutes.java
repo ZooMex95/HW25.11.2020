@@ -1,3 +1,7 @@
-public enum Valute {
-    
+public enum Valutes {
+    RUB,
+    EU,
+    USD
+
+
 }

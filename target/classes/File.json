@@ -1,0 +1,72 @@
+{
+  "Lukoil": {
+    "name": "Лукойл",
+    "address": "Москва",
+    "telephone": "1111111",
+    "inn": "1111111",
+    "ogrn": "1111111",
+    "actives": {
+      "code": "1",
+      "date": "2020",
+      "name": "lkoh",
+      "valute": "rub"
+    },
+    "date": "01/01/1990"
+  },
+  "Gazprom": {
+    "name": "Газпром",
+    "address": "Питер",
+    "telephone": "222222",
+    "inn": "222222",
+    "ogrn": "222222",
+    "actives": {
+      "code": "2",
+      "date": "2021",
+      "name": "gazp",
+      "valute": "eu"
+    },
+    "date": "01/01/1991"
+  },
+  "Rosneft": {
+    "name": "Роснефть",
+    "address": "Екатеринбург",
+    "telephone": "3333333",
+    "inn": "3333333",
+    "ogrn": "3333333",
+    "actives": {
+      "code": "3",
+      "date": "2023",
+      "name": "rosn",
+      "valute": "usd"
+    },
+    "date": "01/01/1993"
+  },
+  "Surgut": {
+    "name": "СургутНефтеГаз",
+    "address": "Сургут",
+    "telephone": "44444444",
+    "inn": "44444444",
+    "ogrn": "44444444",
+    "actives": {
+      "code": "4",
+      "date": "2024",
+      "name": "sngs",
+      "valute": "rub"
+    },
+    "date": "01/01/1994"
+  },
+  "Tatneft": {
+    "name": "Татнефть",
+    "address": "Казань",
+    "telephone": "55555555",
+    "inn": "55555555",
+    "ogrn": "55555555",
+    "actives": {
+      "code": "5",
+      "date": "2025",
+      "name": "tatn",
+      "valute": "eu"
+    },
+    "date": "01/01/1995"
+  }
+}
