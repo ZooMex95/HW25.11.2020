@@ -26,6 +26,10 @@ public class Main {
             System.out.println(company);
         }
 
+        list.get(0);
+
+        //System.out.println(list.get(1).actives.);
+
 
 /*        Company company = gson.fromJson(new FileReader("File.json"), Company.class);
         System.out.println(company);*/

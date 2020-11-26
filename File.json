@@ -1,24 +1,58 @@
 [
-  {"name": "luk",
-  "address": "msc",
-  "telephone": 111,
-  "inn": 222,
-  "ogrn": 333,
-  "actives": {
-    "code": "123",
-    "date": "2020",
-    "name": "lkn",
-    "valute": "RUB"
-  } },
-    {"name": "luk1",
-  "address": "msc1",
-  "telephone": 111111,
-  "inn": 222222,
-  "ogrn": 333333,
-  "actives": {
-    "code": "12345",
-    "date": "20206",
-    "name": "lkn",
-    "valute": "EU"
-  }}
+  {
+    "name": "luk",
+    "address": "msc",
+    "telephone": 111,
+    "inn": 222,
+    "ogrn": 333,
+	"date" : {"year" : 2018,
+				"month" : 05,
+				"day" : 12},
+    "actives": [
+      {
+        "name": "Action",
+        "code": 111,
+        "date" : {"year" : 2018,
+				"month" : 05,
+				"day" : 12},
+        "valute": "RUB"
+      },
+	  {
+	    "name": "Option",
+        "code": 222222,
+        "date" : {"year" : 2018,
+				"month" : 05,
+				"day" : 12},
+        "valute": "USD"
+	  },
+	  	  {
+	    "name": "Option",
+        "code": 222222,
+        "date" : {"year" : 2018,
+				"month" : 05,
+				"day" : 12},
+        "valute": "USD"
+	  }
+    ]
+  },
+  {
+    "name": "luk1",
+    "address": "msc1",
+    "telephone": 111111,
+    "inn": 222222,
+    "ogrn": 333333,
+	"date" : {"year" : 2019,
+				"month" : 05,
+				"day" : 12},
+    "actives": [
+      {
+        "name": "Action1",
+        "code": 222,
+        "date" : {"year" : 2018,
+				"month" : 05,
+				"day" : 12},
+        "valute": "EU"
+      }
+    ]
+  }
 ]
