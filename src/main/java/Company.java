@@ -1,17 +1,28 @@
-public class Company extends Companies {
+public class Company {
+    public String name;
+    public String address;
+    public int telephone;
+    public int inn;
+    public int ogrn;
+    public Actives actives;
 
-    public Company(String name, String address, String telephone, String inn, String ogrn, Actives actives) {
-        super(name, address, telephone, inn, ogrn, actives);
+    public Company(String name, String address, int telephone, int inn, int ogrn, Actives actives) {
+        this.name = name;
+        this.address = address;
+        this.telephone = telephone;
+        this.inn = inn;
+        this.ogrn = ogrn;
+        this.actives = actives;
     }
 
     @Override
     public String toString() {
-        return "Название: " + super.name + "\n" +
-                "адрес: " + super.address + "\n" +
-                "телефон: " + super.telephone + "\n" +
-                "ИНН: " + super.inn + "\n" +
-                "ОГРН: " + super.ogrn + "\n" +
-                "Ценные бумаги: " + super.actives + "\n" +
+        return "Название: " + this.name + "\n" +
+                "адрес: " + this.address + "\n" +
+                "телефон: " + this.telephone + "\n" +
+                "ИНН: " + this.inn + "\n" +
+                "ОГРН: " + this.ogrn + "\n" +
+                "Ценные бумаги: " + this.actives + "\n" +
                 "-----------------------------------------";
     }
 }
