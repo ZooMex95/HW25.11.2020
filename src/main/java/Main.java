@@ -14,7 +14,7 @@ public class Main {
         Gson gson = new Gson();
 
 
-        Company company = gson.fromJson("H:\\File.txt", Company.class);
+        Company company = gson.fromJson("H:\\File.json", Company.class);
         System.out.println(company);
 
 
