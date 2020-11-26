@@ -5,9 +5,9 @@ import java.util.List;
 public class Company {
     public String name;
     public String address;
-    public int telephone;
-    public int inn;
-    public int ogrn;
+    public String telephone;
+    public String inn;
+    public String ogrn;
     public LocalDate date;
     public List<Actives> actives;
 

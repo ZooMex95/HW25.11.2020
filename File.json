@@ -1,57 +1,113 @@
 [
   {
-    "name": "luk",
-    "address": "msc",
-    "telephone": 111,
-    "inn": 222,
-    "ogrn": 333,
-	"date" : {"year" : 2018,
-				"month" : 05,
-				"day" : 12},
+    "name": "Lukoil",
+    "address": "Moscow",
+    "telephone": "8495123456",
+    "inn": "7708004767",
+    "ogrn": "1027700035769",
+	"date" : {"year" : 1993,
+				"month" : 04,
+				"day" : 22},
     "actives": [
       {
-        "name": "Action",
-        "code": 111,
+        "name": "Lukoil shares",
+        "code": 1,
         "date" : {"year" : 2018,
 				"month" : 05,
 				"day" : 12},
         "valute": "RUB"
       },
 	  {
-	    "name": "Option",
-        "code": 222222,
-        "date" : {"year" : 2018,
+	    "name": "Tatneft shares",
+        "code": 4,
+        "date" : {"year" : 2020,
 				"month" : 05,
 				"day" : 12},
         "valute": "USD"
 	  },
 	  	  {
-	    "name": "Option",
-        "code": 222222,
-        "date" : {"year" : 2018,
-				"month" : 05,
-				"day" : 12},
-        "valute": "USD"
+	    "name": "Gazprom shares",
+        "code": 2,
+        "date" : {"year" : 2020,
+				"month" : 12,
+				"day" : 31},
+        "valute": "EU"
 	  }
     ]
   },
   {
-    "name": "luk1",
-    "address": "msc1",
-    "telephone": 111111,
-    "inn": 222222,
-    "ogrn": 333333,
-	"date" : {"year" : 2019,
-				"month" : 05,
-				"day" : 12},
+    "name": "Gazprom",
+    "address": "Omsk",
+    "telephone": "83812704870",
+    "inn": "5501072608",
+    "ogrn": "1035501014284",
+	"date" : {"year" : 2003,
+				"month" : 06,
+				"day" : 25},
     "actives": [
       {
-        "name": "Action1",
-        "code": 222,
+        "name": "Gazprom shares",
+        "code": 2,
+        "date" : {"year" : 2020,
+				"month" : 12,
+				"day" : 31},
+        "valute": "EU"
+      }
+    ]
+  },
+    {
+    "name": "Rosneft",
+    "address": "Sain-Petersburg",
+    "telephone": "88122369455",
+    "inn": "0901021415",
+    "ogrn": "1020900507044",
+	"date" : {"year" : 1994,
+				"month" : 06,
+				"day" : 17},
+    "actives": [
+      {
+        "name": "Rosneft shares",
+        "code": 3,
+        "date" : {"year" : 2021,
+				"month" : 07,
+				"day" : 20},
+        "valute": "USD"
+      },
+	   {
+        "name": "Lukoil shares",
+        "code": 1,
         "date" : {"year" : 2018,
 				"month" : 05,
 				"day" : 12},
-        "valute": "EU"
+        "valute": "RUB"
+      }
+    ]
+  },
+    {
+    "name": "Tatneft",
+    "address": "Kazan",
+    "telephone": "88432642171",
+    "inn": "1644013875",
+    "ogrn": "1021601626892",
+	"date" : {"year" : 2001,
+				"month" : 06,
+				"day" : 26},
+    "actives": [
+      {
+	    "name": "Tatneft shares",
+        "code": 4,
+        "date" : {"year" : 2020,
+				"month" : 05,
+				"day" : 12},
+        "valute": "USD"
+      },
+	{
+        "name": "Rosneft shares",
+        "code": 3,
+        "date" : {"year" : 2021,
+				"month" : 07,
+				"day" : 20},
+        "valute": "USD"
       }
     ]
   }
