@@ -1,8 +1,10 @@
-import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.util.ArrayList;
+
+import java.time.format.DateTimeFormatter;
 import java.util.List;
+
+
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -12,28 +14,20 @@ import com.google.gson.reflect.TypeToken;
 public class Main {
 
     public static void main(String[] args) throws FileNotFoundException {
-        ArrayList<Company> listOfCompanies = new ArrayList<>();
-        //Actives actives = new Actives("123","2020","lkn",Valutes.RUB);
-        //Company company = new Company("luk", "msc", "111", "222", "333",
-                                        //actives);
-        //System.out.println(company);
-
         Gson gson = new Gson();
-
-        List<Company> list = gson.fromJson(new FileReader("File.json"), new TypeToken<List<Company>>(){}.getType());
-        for (Company company:list
+        List<Company> listOfCompanies = gson.fromJson(new FileReader("File.json"), new TypeToken<List<Company>>(){}.getType());
+/*        for (Company company:listOfCompanies
              ) {
             System.out.println(company);
-        }
+        }*/
+        listOfCompanies.forEach(l -> System.out.println(l.name + " - Дата основания " +
+                                l.date.format(DateTimeFormatter.ofPattern("dd/MM/uuuu"))));
 
-
-       // System.out.println(list.get(1).actives.get(0).name);
-
-
-/*        Company company = gson.fromJson(new FileReader("File.json"), Company.class);
-        System.out.println(company);*/
-
-
+        
 
     }
+
+
+
+
 }
