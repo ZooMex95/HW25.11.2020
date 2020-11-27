@@ -24,11 +24,11 @@ public class Company {
     @Override
     public String toString() {
         return "Название: " + this.name + "\n" +
-                "адрес: " + this.address + "\n" +
-                "телефон: " + this.telephone + "\n" +
+                "Адрес: " + this.address + "\n" +
+                "Телефон: " + this.telephone + "\n" +
                 "ИНН: " + this.inn + "\n" +
                 "ОГРН: " + this.ogrn + "\n" +
-                "Дата основания: " + this.date.format(DateTimeFormatter.ofPattern("dd.MM.uuuu")) + "\n" +
+                "Дата основания: " + this.date.format(DateTimeFormatter.ofPattern("dd.MM.yyyy")) + "\n" +
                 "Ценные бумаги: " + this.actives + "\n" +
                 "---------------------------------";
     }

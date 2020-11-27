@@ -6,6 +6,7 @@ public class Actives {
     public LocalDate date;
     public String name;
     public Valutes valute;
+    public String nameOfOwner;
 
 /*    public Actives(String code, String date, String name, Valutes valutes) {
         this.code = code;
