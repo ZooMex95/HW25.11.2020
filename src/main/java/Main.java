@@ -24,6 +24,7 @@ public class Main {
 
         listOfCompanies.forEach(l -> System.out.println(l.name + " - Дата основания " +             //1 задание
                                 l.date.format(DateTimeFormatter.ofPattern("dd/MM/yyyy"))));
+        System.out.println("------------------------------------");
 
 
         listOfCompanies.forEach(l -> l.actives.forEach(a -> {
@@ -32,28 +33,14 @@ public class Main {
             }));
 
         activesAfterDate(listOfActives); //задание 2
+        System.out.println("------------------------------------");
 
         companyCreateAfterDate(listOfCompanies); //задание 3
+        System.out.println("------------------------------------");
 
-        
-
-
-
+        printActives(listOfActives);
 
 
-
-        //listOfActives.forEach(l -> System.out.println(l.name + " " + l.nameOfOwner)); //вывод листа бумаг и владельцев
-
-
-
-        //System.out.println(localDate.format(DateTimeFormatter.ofPattern("dd/MM/yyyy")));
-
-/*        for (Actives a:listOfActives
-             ) {
-            if(a.date.isBefore(localDate)) {
-                System.out.println(a.nameOfOwner + a);
-            }
-        }*/
 
 
     }
@@ -96,6 +83,20 @@ public class Main {
                         l.date.format(DateTimeFormatter.ofPattern("dd/MM/yyyy")));
             }
         });
+
+    }
+
+    public static void printActives(List<Actives> list) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите валюту: ");
+        String valute = scanner.nextLine();
+        list.forEach(l -> {
+            if (l.valute.toString().equals(valute)) {
+                System.out.println("Название: " + l.name + "  код: " + l.code);
+            }
+        });
+
+        scanner.close();
     }
 
 
